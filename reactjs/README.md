@@ -10,6 +10,9 @@ src -> todo codigo criado para aplicação, principalmente JS
 
 public -> arquivo/assets, arquivos publicos, robots, etc
 
+desc:
+  Criando a estrutura basica das pastas
+  
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula2: Configurando Babel
 
@@ -24,6 +27,9 @@ comandos:
   yarn babel src/index.js --out-file dist/bundle.js  
   -> Gera o codigo convertido para o navegador entender
 
+desc:
+  Bibliotecas para transpilar o codigo para ser legivel pelos navegadores
+
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: Configurando WebPack
 
@@ -33,10 +39,14 @@ comandos:
 - yarn add webpack-cli -D
 - yarn add babel-loader -D
 
+dec:
+  facilitando a vida na hora de converter
+
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: Estrutura ReactJS
 
-A partir daqui o projeto ja esta ok para ser trabalho com react!
+desc:
+  A partir daqui o projeto ja esta ok para ser trabalho com react!
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula5: Servindo HTML Estatico
@@ -44,7 +54,8 @@ A partir daqui o projeto ja esta ok para ser trabalho com react!
 -*- Bibliotecas -*-
 - yarn add html-webpack-plugin -D
 
-Melhorando legibilidade e facilidade com o webpack e o html
+desc:
+  Melhorando legibilidade e facilidade com o webpack e o html
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula6: Webpack Dev Server
@@ -59,18 +70,30 @@ Desc:
 # Aula7: Utilizando source maps
 
 Utilizado:
-  eval-source-map - para Develipment
+  eval-source-map - para Development
+  source-map - para production
 
-Visualizar erros de forma mais claras
+desc:
+  Visualizar erros de forma mais claras
+
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula8: Ambiente dev e produção
 
 -*- Bibliotecas -*-
 yarn add cross-env -D
 
-diferenciando ambientes
+desc:
+  diferenciando ambientes
+
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula9: Importando arquivos CSS
+
+-*- Bibliotecas -*-
+- yarn add style-loader -D
+- yarn add css-loader -D
+
+Desc:
+  Adicionando CSS aos arquivos React
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula10: Utilizando SASS
