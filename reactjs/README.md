@@ -31,10 +31,38 @@ comandos:
 
 - yarn add webpack -D
 - yarn add webpack-cli -D
-- yarn add webpack-dev-server -D
 - yarn add babel-loader -D
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: Estrutura ReactJS
 
 A partir daqui o projeto ja esta ok para ser trabalho com react!
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula5: Servindo HTML Estatico
+
+-*- Bibliotecas -*-
+- yarn add html-webpack-plugin -D
+
+Melhorando legibilidade e facilidade com o webpack e o html
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula6: Webpack Dev Server
+
+-*- Bibliotecas -*-
+- yarn add webpack-dev-server -D
+
+Desc:
+  Atualização em real time da aplicação sem precisar dar o comando
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula7: Utilizando source maps
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula8: Ambiente dev e produção
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula9: Importando arquivos CSS
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula10: Utilizando SASS
