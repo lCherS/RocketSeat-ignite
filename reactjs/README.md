@@ -58,6 +58,10 @@ Desc:
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula7: Utilizando source maps
 
+Utilizado:
+  eval-source-map - para Develipment
+  
+Visualizar erros de forma mais claras
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula8: Ambiente dev e produção
 
