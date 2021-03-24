@@ -60,11 +60,15 @@ Desc:
 
 Utilizado:
   eval-source-map - para Develipment
-  
+
 Visualizar erros de forma mais claras
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula8: Ambiente dev e produção
 
+-*- Bibliotecas -*-
+yarn add cross-env -D
+
+diferenciando ambientes
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula9: Importando arquivos CSS
 
