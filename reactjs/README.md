@@ -1,5 +1,4 @@
-#Começo
-Aula1: Estrutura do Projeto
+# Aula1: Estrutura do Projeto
 
 -*- Bibliotecas -*-
 
@@ -10,8 +9,9 @@ Aula1: Estrutura do Projeto
 src -> todo codigo criado para aplicação, principalmente JS
 
 public -> arquivo/assets, arquivos publicos, robots, etc
+
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
-Aula2: Configurando Babel
+# Aula2: Configurando Babel
 
 -*- Bibliotecas -*-
 
@@ -23,3 +23,13 @@ Aula2: Configurando Babel
 comandos:
   yarn babel src/index.js --out-file dist/bundle.js  
   -> Gera o codigo convertido para o navegador entender
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula3: Configurando WebPack
+
+-*- Bibliotecas -*-
+
+- yarn add webpack -D
+- yarn add webpack-cli -D
+- yarn add webpack-dev-server -D
+- yarn add babel-loader -D
