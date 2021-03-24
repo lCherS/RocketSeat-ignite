@@ -33,3 +33,8 @@ comandos:
 - yarn add webpack-cli -D
 - yarn add webpack-dev-server -D
 - yarn add babel-loader -D
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula4: Estrutura ReactJS
+
+A partir daqui o projeto ja esta ok para ser trabalho com react!
