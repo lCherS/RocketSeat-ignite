@@ -155,24 +155,30 @@ Descrição:
 
 # Aula1: Estilização da listagem
 
+
+Descrição:
+
+
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula2: Utilizando o useEffect
 
 
 Descrição:
-  FastRefresh configurado, Evita a perda de dados e reset nos estados de variaveis
+
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: Listando repositórios
 
 Descrição:
-  FastRefresh configurado, Evita a perda de dados e reset nos estados de variaveis
+
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 ## Modulo 4 -> Usando TypeScript
 # Aula1: 
 
 -*- Bibliotecas -*-
+
+Descrição:
 
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -182,6 +188,7 @@ Descrição:
 
 
 Descrição:
+
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: 
