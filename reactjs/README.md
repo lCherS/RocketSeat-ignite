@@ -210,6 +210,8 @@ Descrição:
   # Aula2: Finalização do Modulo
 
 Descrição:
-
+  Metodologia embasado na pratica depois conceito
+  Imutabilidade um dos principais conceitos da programação funcional
+  Revisão de conceitos e aulas até agora
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
