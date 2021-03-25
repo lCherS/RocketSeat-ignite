@@ -181,7 +181,7 @@ Descrição:
 -*- Bibliotecas -*-
 
 Descrição:
-
+  TypeScript é SuperSet, Conjunto de funcionalidades em cima de uma linguagem
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula2: 
