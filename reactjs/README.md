@@ -196,10 +196,7 @@ Descrição:
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: Componentes com TypeScript
 
--*- Bibliotecas -*-
-
-
 Descrição:
-
+  Convertendo os componentes para TypeScript
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
