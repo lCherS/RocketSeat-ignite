@@ -122,14 +122,15 @@ Descrição:
 
 Descrição:
   3 conceitos mais importantes no React -> Componente | Propriedade | Estados
-  
+
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: Estado do componente
 
 
 Descrição:
-  
+  Estado: Monitora uma variavel para verificar se ela se mantem ou se altera
+  funções react que começam com *use* são os seus *Hooks*
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: A imutabbilidade no React
