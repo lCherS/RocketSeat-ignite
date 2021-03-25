@@ -172,7 +172,7 @@ Descrição:
 # Aula3: Listando repositórios
 
 Descrição:
-
+  inserindo dados dinamicos na tela com os hooks e arrumando propriedade *key* do react
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 ## Modulo 4 -> Usando TypeScript
