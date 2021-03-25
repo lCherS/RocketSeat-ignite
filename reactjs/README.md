@@ -12,7 +12,7 @@ public -> arquivo/assets, arquivos publicos, robots, etc
 
 desc:
   Criando a estrutura basica das pastas
-  
+
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula2: Configurando Babel
 
@@ -97,3 +97,10 @@ Desc:
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula10: Utilizando SASS
+
+-*- Bibliotecas -*-
+- yarn add sass-loader -D
+- yarn add node-sass -D
+
+dec:
+  Ajuda no encadeamento de estilizações e facilitando-o
