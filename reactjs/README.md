@@ -200,3 +200,16 @@ Descrição:
   Convertendo os componentes para TypeScript
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+## Modulo 5 -> Finalizando a Aplicação
+# Aula1: Utilizando o React DevTools
+
+Descrição:
+  extensão web para ver a arvore de componentes do proprio react e não somente dos html
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+  # Aula2: Finalização do Modulo
+
+Descrição:
+
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
