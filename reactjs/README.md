@@ -137,7 +137,8 @@ Descrição:
 
 
 Descrição:
-  
+  imutabilidade -> Valor nunca altera, sempre recebe um novo valor
+   -> Copia valores atuais e adiciona os novos, não altera o antigo
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula5: Fast Refresh Webpack
