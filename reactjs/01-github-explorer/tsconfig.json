@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* Visite https://aka.ms/tsconfig.json para saber mais sobre este arquivo */
+
+    /* Opções basicas */
+     "lib": ["dom", "dom.iterable", "esnext"],    /* Especifique os arquivos de biblioteca a serem incluídos na compilação. */
+    "allowJs": true,    /* Permitir que arquivos javascript sejam compilados. */
+    "jsx": "react-jsx",   /* Especifique a geração de código JSX: 'preserve', 'react-native', 'react', 'react-jsx' ou 'react-jsxdev'. */
+    "noEmit": true,   /* Não emita saídas. */
+
+    /* Opções restritas de verificação de tipo */
+    "strict": true,   /* Ativar todas as opções de verificação de tipo restrita. */
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",   /* Especifique a estratégia de resolução do módulo: 'node' (Node.js) ou 'clássico' (TypeScript pré-1.6). */
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    "allowSyntheticDefaultImports": true,   /* Permitir importações padrão de módulos sem exportação padrão. Isso não afeta a emissão de código, apenas a verificação de digitação. */
+    "esModuleInterop": true,    /* Habilita a interoperabilidade de emissão entre os Módulos CommonJS e ES por meio da criação de objetos de namespace para todas as importações. Implica 'allowSyntheticDefaultImports'. */
+
+    /* Opções avançadas*/
+    "skipLibCheck": true,   /* Ignore a verificação de tipo de arquivos de declaração.*/
+    "forceConsistentCasingInFileNames": true,   /* Proibir referências com maiúsculas e minúsculas inconsistentes para o mesmo arquivo. */
+  },
+  "include": ["src"]
+}

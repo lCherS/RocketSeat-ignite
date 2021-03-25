@@ -176,24 +176,25 @@ Descrição:
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 ## Modulo 4 -> Usando TypeScript
-# Aula1: 
-
--*- Bibliotecas -*-
+# Aula1: Fundamentos do TypeScript
 
 Descrição:
   TypeScript é SuperSet, Conjunto de funcionalidades em cima de uma linguagem
-
+ 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
-# Aula2: 
+# Aula2: TypeScript no ReactJS
 
 -*- Bibliotecas -*-
-
+- yarn add typescript -D
+- yarn add @babel/preset-typescript -D
+- yarn add @types/react-dom -D
+- yarn add @types/react -D
 
 Descrição:
-
-
+  yarn tsc ou typescript --init
+  typescript para tipagem dos dados, maior facilidade na hora de trabalhar e dar manutenção nos codigos
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
-# Aula3: 
+# Aula3: Componentes com TypeScript
 
 -*- Bibliotecas -*-
 
