@@ -165,7 +165,8 @@ Descrição:
 
 
 Descrição:
-
+  useState e useEffect -> 2 hooks mais utilizados
+  Demonstração basica do useEffect
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: Listando repositórios
