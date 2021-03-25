@@ -110,7 +110,7 @@ Descrição:
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 ## Modulo 2
 
-# Aula1: Primeiro COmponente React
+# Aula1: Primeiro Componente React
 
 Descrição:
   Cada Função, cada arquivo separado para uma estrutura, é considerada um componenete.
@@ -121,7 +121,8 @@ Descrição:
 
 
 Descrição:
-
+  3 conceitos mais importantes no React -> Componente | Propriedade | Estados
+  
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula3: Estado do componente
