@@ -1,3 +1,5 @@
+## Modulo 1
+
 # Aula1: Estrutura do Projeto
 
 -*- Bibliotecas -*-
@@ -10,7 +12,7 @@ src -> todo codigo criado para aplicação, principalmente JS
 
 public -> arquivo/assets, arquivos publicos, robots, etc
 
-desc:
+Descrição:
   Criando a estrutura basica das pastas
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -27,7 +29,7 @@ comandos:
   yarn babel src/index.js --out-file dist/bundle.js  
   -> Gera o codigo convertido para o navegador entender
 
-desc:
+Descrição:
   Bibliotecas para transpilar o codigo para ser legivel pelos navegadores
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -45,7 +47,7 @@ dec:
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: Estrutura ReactJS
 
-desc:
+Descrição:
   A partir daqui o projeto ja esta ok para ser trabalho com react!
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -54,7 +56,7 @@ desc:
 -*- Bibliotecas -*-
 - yarn add html-webpack-plugin -D
 
-desc:
+Descrição:
   Melhorando legibilidade e facilidade com o webpack e o html
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -63,7 +65,7 @@ desc:
 -*- Bibliotecas -*-
 - yarn add webpack-dev-server -D
 
-Desc:
+Descrição:
   Atualização em real time da aplicação sem precisar dar o comando
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -73,7 +75,7 @@ Utilizado:
   eval-source-map - para Development
   source-map - para production
 
-desc:
+Descrição:
   Visualizar erros de forma mais claras
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -82,7 +84,7 @@ desc:
 -*- Bibliotecas -*-
 yarn add cross-env -D
 
-desc:
+Descrição:
   diferenciando ambientes
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -92,7 +94,7 @@ desc:
 - yarn add style-loader -D
 - yarn add css-loader -D
 
-Desc:
+Descrição:
   Adicionando CSS aos arquivos React
 
   -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
@@ -102,5 +104,42 @@ Desc:
 - yarn add sass-loader -D
 - yarn add node-sass -D
 
-dec:
+Descrição:
   Ajuda no encadeamento de estilizações e facilitando-o
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+## Modulo 2
+
+# Aula1: Primeiro COmponente React
+
+Descrição:
+  Cada Função, cada arquivo separado para uma estrutura, é considerada um componenete.
+  1 componente por arquivo
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula2: Propriedades no React
+
+
+Descrição:
+
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula3: Estado do componente
+
+
+Descrição:
+  
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula4: A imutabbilidade no React
+
+
+Descrição:
+  
+
+  -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+# Aula5: Fast Refresh Webpack
+
+
+Descrição:
+  

@@ -1,5 +1,7 @@
 import './styles/global.scss';
 
+import { RepositoryList } from './components/RepositoryList';
+
 export function App() {
-return (<h1>Ola mundinhos</h1>)
+return (< RepositoryList />)
 }
