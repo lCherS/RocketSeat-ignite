@@ -19,7 +19,7 @@ Descrição:
 # Aula3: exportando assets do Figma
 
 Descrição:
-
+  Pegando icones e vendo como funciona o css e exportações dele
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: Instalando Styled Components
 
