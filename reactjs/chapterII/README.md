@@ -37,11 +37,11 @@ Descrição:
 
 Descrição:
   Fontes trabalhadas em % para questoes de responsibilidade e tambem acessibilidade, trabalhe sempre com medidas em rem e %
-  manter este padrao de @media fonts para todas aplicações
+  manter este padrao de @media fonts para todas aplicações˜
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula6: Fontes do Google Fonts
 
 Descrição:
-
+  Alterando a fonte da aplicação, pegando uma do Google Fonts
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
