@@ -20,10 +20,17 @@ Descrição:
 
 Descrição:
   Pegando icones e vendo como funciona o css e exportações dele
+  invez de apenas atribuir a estilização ao componente, ele se torna o proprio componente
+  
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: Instalando Styled Components
 
+-*- Bibliotecas -*-
+- yarn add styled-components
+- yarn add @types/styled-components -D
+
 Descrição:
+  styled-components funciona como um css in js
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula5: Criando estilos globais
