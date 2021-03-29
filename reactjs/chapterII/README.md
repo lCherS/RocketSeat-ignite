@@ -21,7 +21,7 @@ Descrição:
 Descrição:
   Pegando icones e vendo como funciona o css e exportações dele
   invez de apenas atribuir a estilização ao componente, ele se torna o proprio componente
-  
+
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 # Aula4: Instalando Styled Components
 
@@ -36,7 +36,8 @@ Descrição:
 # Aula5: Criando estilos globais
 
 Descrição:
-
+  Fontes trabalhadas em % para questoes de responsibilidade e tambem acessibilidade, trabalhe sempre com medidas em rem e %
+  manter este padrao de @media fonts para todas aplicações
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula6: Fontes do Google Fonts
