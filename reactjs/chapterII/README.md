@@ -44,4 +44,30 @@ Descrição:
 
 Descrição:
   Alterando a fonte da aplicação, pegando uma do Google Fonts
+
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+## Modulo 2 -> Componentização
+
+# Aula1: Componente: Header
+
+Descrição:
+  Adicionando CSS e Componente em tela, criando componente Header e sua estilização
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula2: Componente: Summary
+
+Descrição:
+  Adição de textos principais e estilizacão inicial do corpo da aplicação
+  Correções em estilos globais e importação de fonte
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula3: Componente: Transaction Table
+
+Descrição:
+  Criação tabela de movimentações e suas estilizações
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+
