@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
 :root{
   --background: #f0f2f5;
-  --red: #e52e4d:
+  --red: #e52e4d;
   --blue: #5429cc;
   
   --blue-light:#6933ff;
@@ -43,7 +43,7 @@ html {
     font-size: 93.75%;
   }
 
-  @media(max-width: 1080px) {
+  @media(max-width: 720px) {
     font-size: 87.5%;
   }
 }
