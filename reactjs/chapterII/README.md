@@ -81,6 +81,8 @@ Descrição:
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula2: Configurando MirageJS
+  -*- Bibliotecas -*-
+ yarn add mirageJS
 
 Descrição:
   Configurando MirageJS para facilitar a integração apos a API real estar 
@@ -90,9 +92,11 @@ Descrição:
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula3: Configurando Cliente do Axios
-
+-*- Bibliotecas -*-
+ yarn add axios
 Descrição:
-
+  conectando axios com o MirageJS
+  criando base do axios para requisições
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
