@@ -76,14 +76,16 @@ Descrição:
 # Aula1: Criando front-end sem Back-end
 
 Descrição:
-
+   - MirageJS = Possibilita a criação de uma API fake para ambiente de desenvolvimento
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula2: Configurando MirageJS
 
 Descrição:
-
+  Configurando MirageJS para facilitar a integração apos a API real estar 
+  pronta
+  Emulando uma situação, mesmo em ambiente de desenvolvimento
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
