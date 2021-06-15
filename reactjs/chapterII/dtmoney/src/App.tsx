@@ -1,5 +1,6 @@
 import React from 'react';
 import style from 'styled-components';
+import { Dashboard } from './components/Dashboard';
 import { Header } from './components/Header';
 import { GlobalStyle } from './styles/global';
 
@@ -10,7 +11,7 @@ export function App() {
     <>
       <GlobalStyle />
       <Header />
-      <h1>OiOi</h1>
+      <Dashboard />
     </>
   );
 }
