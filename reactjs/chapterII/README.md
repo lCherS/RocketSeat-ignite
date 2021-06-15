@@ -71,3 +71,27 @@ Descrição:
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 
+## Modulo 3 -> Consumindo API
+
+# Aula1: Criando front-end sem Back-end
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula2: Configurando MirageJS
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula3: Configurando Cliente do Axios
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+
