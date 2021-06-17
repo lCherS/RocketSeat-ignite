@@ -58,6 +58,8 @@ button {
   cursor: not-allowed;
 }
 
+/* Estilização do Modal */
+
 .react-modal-overlay {
   background: rgba(0, 0, 0, 0.5);
 
@@ -80,6 +82,19 @@ button {
   position: relative;
   border-radius: 0.35rem;
 
+}
+
+.react-modal-close {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  border: 0;
+  background: transparent;
+
+  transition: filter 0.3s;
+  &:hover {
+    filter: brightness(0.8);
+  }
 }
 
 `

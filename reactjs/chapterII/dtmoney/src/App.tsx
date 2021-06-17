@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "styled-components";
+// import style from "styled-components";
 import Modal from "react-modal";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";

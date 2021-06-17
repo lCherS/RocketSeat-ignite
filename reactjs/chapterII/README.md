@@ -136,7 +136,7 @@ Descrição:
 -*- Bibliotecas -*-
 
 Descrição:
-
+  Mais algumas estilizações dos botões e campos no modal
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
