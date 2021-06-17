@@ -101,3 +101,99 @@ Descrição:
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 
+## Modulo 4 -> Modal e Forms
+
+# Aula1: Configurando modal de criação
+  -*- Bibliotecas -*-
+  yarn add react-modal
+
+
+Descrição:
+  como introduzir modal atravez do react-modal
+  Compartilhamento de informações entre componentes pai e filho
+  alterando estado do pai, pela propriedade de um filho
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula2: Componente: NewTransactionModal
+  -*- Bibliotecas -*-
+
+Descrição:
+  Criando Componente separado para o modal
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula3: Estrutura do formulario
+-*- Bibliotecas -*-
+
+Descrição:
+  Atribuindo formatação e corpo ao modal
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula4: Estilizando modal
+-*- Bibliotecas -*-
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula5: Criando botões de Tipo
+  -*- Bibliotecas -*-
+
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula6: Funcionamento dos botões
+-*- Bibliotecas -*-
+
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula7: cores dos botões
+-*- Bibliotecas -*-
+
+Descrição:
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula8: Salvando dados do form
+  -*- Bibliotecas -*-
+
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula9: Inserindo transações na API
+-*- Bibliotecas -*-
+
+
+Descrição:
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula10: Listando transações e seeds
+-*- Bibliotecas -*-
+
+
+Descrição:
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula11: Formatando valores
+-*- Bibliotecas -*-
+
+
+Descrição:
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
