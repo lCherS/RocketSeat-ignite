@@ -4,8 +4,9 @@ import Modal from "react-modal";
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
+import { NewTransactionModal } from "./components/NewTransactionModal";
 
-Modal.setAppElement('#root');
+Modal.setAppElement("#root");
 
 export function App() {
   const [isNewTTransactionModalOpen, setIsNewTTransactionModalOpen] =
@@ -21,14 +22,11 @@ export function App() {
   return (
     <>
       <GlobalStyle />
-      <Header onOpenNewTransactionModal={ handleOpenNewTTransactionModal }/>
-
-      <Modal
+      <Header onOpenNewTransactionModal={handleOpenNewTTransactionModal} />
+      <NewTransactionModal
         isOpen={isNewTTransactionModalOpen}
         onRequestClose={handleCloseNewTTransactionModal}
-      >
-        <h2>Cadastrar transação</h2>
-      </Modal>
+      />
       <Dashboard />
     </>
   );
