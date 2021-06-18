@@ -196,8 +196,9 @@ Descrição:
 
 # Aula11: Formatando valores
 -*- Bibliotecas -*-
-
+ Intl
 
 Descrição:
-
+  Aplicando formatação a data e valores
+  Mostrando sobre a Intl
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
