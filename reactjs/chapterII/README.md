@@ -202,3 +202,66 @@ Descrição:
   Aplicando formatação a data e valores
   Mostrando sobre a Intl
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+## Modulo 5 -> Contextos e Hooks
+
+# Aula1: Introdução á contextos
+  -*- Bibliotecas -*-
+
+
+Descrição:
+  Contextos: Transmitir informação entre os componentes (hj interno no React, antes era do ...)
+  Acessar a mesma informação, independente da onde ela esteja
+  2 Formas:
+   - Transição de informações entre pai e filho
+   - Transição da informação atravez de contexto
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula2: A Context API no React
+  -*- Bibliotecas -*-
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula3: Carregando transações
+-*- Bibliotecas -*-
+
+Descrição:
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula4: Movendo transação para o context
+-*- Bibliotecas -*-
+
+Descrição:
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula5: Finalizando Inserção
+  -*- Bibliotecas -*-
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula6: Calculando Resumo
+-*- Bibliotecas -*-
+
+
+Descrição:
+
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
+
+# Aula7: Criando Hook
+-*- Bibliotecas -*-
+
+Descrição:
+
+
+-- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
