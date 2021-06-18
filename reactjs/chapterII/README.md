@@ -191,7 +191,7 @@ Descrição:
 
 
 Descrição:
-
+  Atribuindo os dados dinamicamente do banco MirageJS a tabela
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula11: Formatando valores
