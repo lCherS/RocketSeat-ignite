@@ -2,6 +2,8 @@ import { Container, RadioBox, TransactionTypeContainer } from "./style";
 import Modal from "react-modal";
 import { useState, FormEvent } from "react";
 
+import { api } from '../../services/api';
+
 import IconClose from "../../assets/close.svg";
 import incomeIcon from "../../assets/income.svg";
 import outcomeIcon from "../../assets/outcome.svg";
@@ -22,8 +24,17 @@ export function NewTransactionModal({
 
   function handleCreateNewTransaction(e: FormEvent) {
     e.preventDefault();
-  }
 
+    const data = {
+      title,
+      value,
+      category,
+      type
+    }
+console.log(data); 
+  api.post('/transactions', data);
+
+  }
   return (
     <Modal
       isOpen={isOpen}
@@ -75,7 +86,7 @@ export function NewTransactionModal({
             activeColor="red"
           >
             <img src={outcomeIcon} alt="Saida" />
-            Entrada
+            Saida
           </RadioBox>
         </TransactionTypeContainer>
         <input
