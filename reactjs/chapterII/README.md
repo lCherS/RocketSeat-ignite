@@ -222,7 +222,8 @@ Descrição:
   -*- Bibliotecas -*-
 
 Descrição:
-
+  Explicando como funciona os contexto
+  como Consumir um contexto em forma de Hooks
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
