@@ -155,7 +155,8 @@ Descrição:
 
 
 Descrição:
-
+  adicionando novas propriedades atravez do styled-components ao botão
+  estilizando botao de acordo com propriedade existente
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
