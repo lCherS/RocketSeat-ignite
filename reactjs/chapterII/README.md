@@ -142,10 +142,11 @@ Descrição:
 
 # Aula5: Criando botões de Tipo
   -*- Bibliotecas -*-
-
+ yarn add polished
 
 Descrição:
-
+  Criando botões entrada/saida para definir tipo
+  estilizando o botão
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
