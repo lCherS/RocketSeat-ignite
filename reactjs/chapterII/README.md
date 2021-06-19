@@ -231,7 +231,7 @@ Descrição:
 -*- Bibliotecas -*-
 
 Descrição:
-
+  adicionando chamadas e atribuindo valor no contexto
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
 # Aula4: Movendo transação para o context
