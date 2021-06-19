@@ -238,6 +238,8 @@ Descrição:
 -*- Bibliotecas -*-
 
 Descrição:
+  Ajustando Contextos e Tipagens
+  Cadastrando produto na API
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
