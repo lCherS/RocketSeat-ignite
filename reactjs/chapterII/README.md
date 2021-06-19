@@ -247,7 +247,8 @@ Descrição:
   -*- Bibliotecas -*-
 
 Descrição:
-
+  Adicionando dados do modal ao estado de transações
+  Exibindo dados inseridos na tabela
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
 
