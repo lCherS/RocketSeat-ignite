@@ -22,7 +22,7 @@ const {transactions} = useContext(TransactionsContext)
           {transactions.map((transact) => (
             <tr key={transact.id}>
               <td>{transact.title}</td>
-              <td className={transact.type}>
+              <td className={transact.type}> {transact.type === 'withdraw' ? '- ' : ''}
                 {new Intl.NumberFormat("pt-BR", {
                   style: "currency",
                   currency: "BRL",

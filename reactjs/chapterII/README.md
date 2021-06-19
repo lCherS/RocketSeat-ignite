@@ -257,7 +257,7 @@ Descrição:
 
 
 Descrição:
-
+  exbindo no cabeçalho somas corretamentes
 
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
