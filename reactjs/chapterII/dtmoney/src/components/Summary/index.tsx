@@ -1,13 +1,13 @@
 import { Container } from "./styles";
 import { useContext } from "react";
-import { TransactionsContext } from "../../TransactionsContext";
+import { useTransactions } from "../../hooks/useTransactionsContext";
 
 import iconImgIncome from "../../assets/income.svg";
 import iconImgOutcome from "../../assets/outcome.svg";
 import iconImgTotal from "../../assets/total.svg";
 
 export function Summary() {
-  const { transactions } = useContext(TransactionsContext);
+  const { transactions } = useTransactions();
   /* REFATORADO
   const totalDeposits = transactions.reduce((acc, transaction) => {
     return transaction.type === "deposit" 

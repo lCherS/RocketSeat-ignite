@@ -266,6 +266,6 @@ Descrição:
 -*- Bibliotecas -*-
 
 Descrição:
-
+  Organizando e enxutando o codigo separando os Hooks
 
 -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * -- * --
