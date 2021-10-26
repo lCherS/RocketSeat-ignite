@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+app.use(express.json());
+
 /**
  * GET - busca
  * POST - insere
@@ -10,6 +12,13 @@ const app = express();
  * DELETE - deleta
  */
 
+/**
+ * Tipos de parametros
+ * 
+ * Route Params => Identificar um recurso editar/deletar/buscar
+ * Query params => Paginação / Filtro
+ * Body Params => Os objetos inserção/alteração
+ */
 app.get("/courses", (req, res) => {
   return res.json(["Curso 1", "Curso 2", "Curos 3"])
 })
