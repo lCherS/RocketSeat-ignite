@@ -35,7 +35,7 @@ app.delete("/courses/:id", (req, res) => {
   const id = req.params.id;
   let cursos = ["Curso 1", "Curso 2", "Curos 3", "Curso 4"];
 
-  return res.json(cursos);
+  return res.json(cursos)
 })
 
 app.listen(3333);
