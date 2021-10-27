@@ -62,10 +62,10 @@ app.post("/account", (req, res) => {
   return res.status(201).send();
 });
 
-app.get("/statement", verifyIfExistsAccountCPF, (req, res) => {
+app.get("/statement",verifyIfExistsAccountCPF, (req, res) => {
   const { customer } = req;
 
-  return res.json(customer);
+  return res.json(customer.statement);
 });
 
 app.post("/deposit",verifyIfExistsAccountCPF, (req, res) => {
@@ -107,7 +107,7 @@ app.post('/withdraw',verifyIfExistsAccountCPF, (req, res) => {
 
 })
 
-app.get("/statement/date", verifyIfExistsAccountCPF, (req, res) => {
+app.get("/statement/date",verifyIfExistsAccountCPF, (req, res) => {
   const { customer } = req;
   const { date } = req.query;
   const dateFormat = new Date(date + " 00:00");
@@ -116,5 +116,20 @@ app.get("/statement/date", verifyIfExistsAccountCPF, (req, res) => {
 
   return res.json(statement);
 });
+
+app.put('/account',verifyIfExistsAccountCPF, (req, res) => {
+  const { name } = req.body;
+  const { customer } = req;
+
+  customer.name = name;
+
+  return res.status(201).send('alterado com sucesso!');
+})
+
+app.get("/account",verifyIfExistsAccountCPF, (req, res) => {
+  const { customer } = req;
+
+  return res.json(customer);
+})
 
 app.listen(3333);
