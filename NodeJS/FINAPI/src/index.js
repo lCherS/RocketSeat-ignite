@@ -129,7 +129,24 @@ app.put('/account',verifyIfExistsAccountCPF, (req, res) => {
 app.get("/account",verifyIfExistsAccountCPF, (req, res) => {
   const { customer } = req;
 
-  return res.json(customer);
+  return res.json(customers);
+})
+
+app.delete("/account",verifyIfExistsAccountCPF, (req, res) => {
+  const { customer } = req;
+
+  customers.splice(customer, 1)
+
+  return res.status(200).json(customers);
+
+
+})
+
+app.get("/balance",verifyIfExistsAccountCPF, (req, res) => {
+  const { customer } = req;
+  const balance = GetBalance(customer.statement)
+
+  return res.json(balance)
 })
 
 app.listen(3333);
