@@ -1,11 +1,11 @@
 [submodule "Desafio1"]
-	path = NodeJS/Desafios/Chapter1/ignite-template-conceitos-do-nodejs
-	url = https://github.com/rocketseat-education/ignite-template-conceitos-do-nodejs
+	path = NodeJS/Desafios/Chapter1/Chapter1Ex1
+	url = https://github.com/lCherS/Chapter1Ex1
 
 [submodule "Desafio2"]
-	path = NodeJS/Desafios/Chapter1/ignite-template-trabalhando-com-middlewares
-	url = https://github.com/rocketseat-education/ignite-template-trabalhando-com-middlewares
+	path = NodeJS/Desafios/Chapter1/Chapter1Ex2
+	url = https://github.com/lCherS/Chapter1Ex2
 
 [submodule "Desafio3"]
-	path = NodeJS/Desafios/Chapter1/ignite-template-corrigindo-o-codigo
-	url = https://github.com/rocketseat-education/ignite-template-corrigindo-o-codigo
+	path = NodeJS/Desafios/Chapter1/Chapter1Ex3
+	url = https://github.com/lCherS/Chapter1Ex3
