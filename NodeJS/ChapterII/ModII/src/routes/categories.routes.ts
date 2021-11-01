@@ -15,4 +15,10 @@ categoriesRoutes.post("/", (req, res) => {
   return res.status(201).send();
 });
 
+categoriesRoutes.get("/", (req, res) => {
+  const ListCategories = newCategory.ShowCategories();
+
+  return res.json(ListCategories);
+});
+
 export { categoriesRoutes };

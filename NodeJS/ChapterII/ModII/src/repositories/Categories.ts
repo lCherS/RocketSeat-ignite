@@ -23,6 +23,11 @@ class CategoriesRepository {
     });
     this.categories.push(NewCategory);
   }
+  ShowCategories(): Category[] {
+    const ListCategory = this.categories.map((el) => el);
+
+    return ListCategory;
+  }
 }
 
 export { CategoriesRepository };
