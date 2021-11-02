@@ -23,10 +23,15 @@ class CategoriesRepository {
     });
     this.categories.push(NewCategory);
   }
-  ShowCategories(): Category[] {
+  Show(): Category[] {
     const ListCategory = this.categories.map((el) => el);
 
     return ListCategory;
+  }
+  FindByName(name: string): Category {
+    const FindCategory = this.categories.find((el) => el.name === name);
+
+    return FindCategory;
   }
 }
 

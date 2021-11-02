@@ -9,6 +9,10 @@ const newCategory = new CategoriesRepository();
 
 categoriesRoutes.post("/", (req, res) => {
   const { name, description } = req.body;
+  const CategoryExistis = newCategory.FindByName(name);
+
+  if (CategoryExistis)
+    return res.status(400).json({ error: "Category already exists!" });
 
   newCategory.create({ name, description });
 
@@ -16,7 +20,7 @@ categoriesRoutes.post("/", (req, res) => {
 });
 
 categoriesRoutes.get("/", (req, res) => {
-  const ListCategories = newCategory.ShowCategories();
+  const ListCategories = newCategory.Show();
 
   return res.json(ListCategories);
 });
