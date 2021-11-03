@@ -12,7 +12,9 @@ class CategoriesRepository implements ICategoriesRepository {
     this.categories = [];
   }
   list(): Category[] {
-    throw new Error("Method not implemented.");
+    const ListCategory = this.categories.map((el) => el);
+
+    return ListCategory;
   }
 
   create({ name, description }: ICreateCategoryDTO): void {
@@ -24,11 +26,6 @@ class CategoriesRepository implements ICategoriesRepository {
       created_at: new Date().toString(),
     });
     this.categories.push(NewCategory);
-  }
-  Show(): Category[] {
-    const ListCategory = this.categories.map((el) => el);
-
-    return ListCategory;
   }
   findByName(name: string): Category {
     const FindCategory = this.categories.find((el) => el.name === name);
