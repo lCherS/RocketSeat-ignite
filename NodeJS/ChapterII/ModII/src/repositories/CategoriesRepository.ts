@@ -1,16 +1,18 @@
 import { Category } from "../model/category";
-
+import {
+  ICategoriesRepository,
+  ICreateCategoryDTO,
+} from "./ICategoriesRepository";
 // DTO -> Data  transfer object
-interface ICreateCategoryDTO {
-  name: string;
-  description: string;
-}
 
-class CategoriesRepository {
+class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
 
   constructor() {
     this.categories = [];
+  }
+  list(): Category[] {
+    throw new Error("Method not implemented.");
   }
 
   create({ name, description }: ICreateCategoryDTO): void {
@@ -28,7 +30,7 @@ class CategoriesRepository {
 
     return ListCategory;
   }
-  FindByName(name: string): Category {
+  findByName(name: string): Category {
     const FindCategory = this.categories.find((el) => el.name === name);
 
     return FindCategory;
