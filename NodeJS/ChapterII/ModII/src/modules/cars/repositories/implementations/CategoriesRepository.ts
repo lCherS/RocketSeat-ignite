@@ -1,8 +1,8 @@
-import { Category } from "../model/category";
+import { Category } from "../../model/category";
 import {
   ICategoriesRepository,
   ICreateCategoryDTO,
-} from "./ICategoriesRepository";
+} from "../ICategoriesRepository";
 // DTO -> Data  transfer object
 
 class CategoriesRepository implements ICategoriesRepository {
