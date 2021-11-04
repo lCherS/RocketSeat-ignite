@@ -13,6 +13,8 @@ specificationsRoutes.post("/", (req, res) => {
     specificationsRepository
   );
 
+  // specificationsRoutes.get("/", (req, res) => {});
+
   createSpecificationService.execute({ name, description });
 
   return res.status(201).send();

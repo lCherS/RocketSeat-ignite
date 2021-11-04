@@ -8,13 +8,21 @@ import {
 class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
 
-  constructor() {
+  private static INSTANCE: CategoriesRepository;
+
+  private constructor() {
     this.categories = [];
   }
-  list(): Category[] {
-    const ListCategory = this.categories.map((el) => el);
 
-    return ListCategory;
+  public static getInstance(): CategoriesRepository {
+    if (!CategoriesRepository.INSTANCE) {
+      CategoriesRepository.INSTANCE = new CategoriesRepository();
+    }
+    return CategoriesRepository.INSTANCE;
+  }
+
+  list(): Category[] {
+    return this.categories;
   }
 
   create({ name, description }: ICreateCategoryDTO): void {
