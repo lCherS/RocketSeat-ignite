@@ -9,3 +9,11 @@
 [submodule "Desafio3"]
 	path = NodeJS/Desafios/Chapter1/Chapter1Ex3
 	url = https://github.com/lCherS/Chapter1Ex3
+
+	[submodule "Desafio4"]
+	path = NodeJS/Desafios/Chapter1/Chapter2Ex1
+	url = https://github.com/lCherS/Chapter2Ex1
+
+	[submodule "Desafio5"]
+	path = NodeJS/Desafios/Chapter1/Chapter2Ex2
+	url = https://github.com/lCherS/Chapter2Ex2
