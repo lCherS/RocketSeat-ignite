@@ -1,0 +1,19 @@
+service:
+  name: ignite
+
+configValidationMode: off
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+
+functions:
+  hello:
+    handle: src/functions/hello.handle
+    events:
+      - http:
+          path: /hello
+          method: GET
+          cors: true
