@@ -4,4 +4,4 @@ module.exports = {
   module: {
     loaders: [ ... ]
   }
-}
+};

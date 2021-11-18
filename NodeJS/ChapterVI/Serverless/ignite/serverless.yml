@@ -1,17 +1,21 @@
 service:
   name: ignite
 
-configValidationMode: off
-
 plugins:
   - serverless-offline
+  - serverless-webpack
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
 
 provider:
   name: aws
 
 functions:
   hello:
-    handle: src/functions/hello.handle
+    handler: src/functions/hello.handle
     events:
       - http:
           path: /hello
